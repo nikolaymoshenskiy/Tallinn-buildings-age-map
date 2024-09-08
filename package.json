@@ -1,0 +1,16 @@
+{
+  "name": "tallinn-buildings-age-map",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "ol": "^10.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.3"
+  }
+}

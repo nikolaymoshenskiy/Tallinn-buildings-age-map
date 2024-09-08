@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tallinn Buildings Age</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map-container">
+    <div id="map" class="map"></div>
+    <div id="info-panel">
+      <div id="info-content"></div>
+    </div>
+    <div class="legend-container">
+      <h3>Year of сonstruction</h3>
+      <div id="color-ramp">
+        <div id="slider-container">
+          <div id="slider-track"></div>
+          <div id="slider-range"></div>
+          <div id="slider-blur"></div>
+          <div id="slider-handle-1" class="slider-handle"></div>
+          <div id="slider-handle-2" class="slider-handle"></div>
+          <div id="slider-ticks"></div>
+          <div id="slider-labels"></div>
+          <div id="year-range-display"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="credits">
+      <p>
+        <a href="https://carto.com/" target="_blank" rel="noopener noreferrer">© CARTO</a>
+        <span class="separator">|</span>
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a>
+        <span class="separator">|</span>
+        <span class="data-text">Data:</span> <a href="https://livekluster.ehr.ee/ui/ehr/v1" target="_blank" rel="noopener noreferrer">Ehitisregister</a>
+      </p>
+    </footer>
+  </div>
+  <script src="main.js" type="module"></script>
+  <script src="slider.js" type="module"></script>
+</body>
+</html>
